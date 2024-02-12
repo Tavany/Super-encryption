@@ -1,0 +1,19 @@
+@media print {
+    body {
+    font-family: 'Times New Roman', Times, serif; /* Set the font family to Times New Roman */
+    color: black; /* Set the text color to black */
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 2px solid black;
+    color: black;
+}
+
+th, td {
+    padding: 10px;
+}
+}
